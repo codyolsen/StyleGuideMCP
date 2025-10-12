@@ -1,0 +1,29 @@
+{
+  "name": "styleguidemcp",
+  "version": "1.0.0",
+  "description": "A barebones MCP server for surfacing design standards for front-end designs",
+  "type": "module",
+  "bin": {
+    "styleguidemcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "design-system",
+    "style-guide"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.2",
+    "@types/node": "^24.6.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

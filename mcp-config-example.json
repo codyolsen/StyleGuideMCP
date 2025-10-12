@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "styleguidemcp": {
+      "command": "node",
+      "args": ["./dist/index.js"]
+    }
+  }
+}
